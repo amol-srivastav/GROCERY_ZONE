@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&family=Nunito:wght@200&family=Open+Sans:wght@500&family=Roboto&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    margin:auto;
+    width:100vw;
+    height:100vh;
+}
+div
+{
+width:100vw;
+height:100vh;
+}
+:root
+{
+--primary-color:rgb(34, 207, 34);
+--secondary-color:white;
+}
+.align
+{
+text-align:center;
+}
+.center
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.color
+{
+    background-color:var(--primary-color);
+    border-radius:1rem;
+
+}
+.white
+{
+    color:var(--secondary-color);
+}
+.green
+{
+    color:var(--primary-color);
+}
+.list
+{
+    list-style:none;
+    display:inline-block;
+}
+.padd
+{
+    margin-right:90rem;
+}
+.link-secondary{
+    
+    color:var(--primary-color);
+    border-radius:20rem;
+    border:1px solid var(--primary-color);
+    text-decoration:none;
+    background-color:white;
+}
+.links
+{
+    text-decoration:none;
+}
+.buy
+{
+    padding-left:1rem;
+    padding-right:1rem;
+    margin-left:50rem;
+}
+.margin
+{
+    text-align:center;
+    margin-left:49rem;
+}
